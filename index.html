@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#fbf5e9" />
+    <meta name="description" content="给全家人使用的宝宝吃奶、睡眠、护理、辅食和成长记录。" />
+    <link rel="icon" href="/baby-day-family-web/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/baby-day-family-web/apple-touch-icon.png?v=2" />
+    <link rel="manifest" href="/baby-day-family-web/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>宝宝的一天 · 家庭记录</title>
+    <script type="module" crossorigin src="/baby-day-family-web/assets/index-DiyXUdVx.js"></script>
+    <link rel="stylesheet" crossorigin href="/baby-day-family-web/assets/index-CpASh8iC.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/baby-day-family-web/cloudbase-config.js"></script>
+    <script>
+      window.__BABY_INSTALL_PROMPT__ = null;
+      window.addEventListener("beforeinstallprompt", function (event) {
+        event.preventDefault();
+        window.__BABY_INSTALL_PROMPT__ = event;
+        window.dispatchEvent(new Event("baby-install-prompt-ready"));
+      });
+    </script>
+  </body>
+</html>
