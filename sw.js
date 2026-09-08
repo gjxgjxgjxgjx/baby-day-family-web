@@ -1,5 +1,5 @@
-const CACHE_NAME = "baby-day-shell-f09133e18553";
-const PRECACHE = ["/baby-day-family-web/","/baby-day-family-web/index.html","/baby-day-family-web/cloudbase-config.js","/baby-day-family-web/manifest.webmanifest","/baby-day-family-web/assets/index-CpASh8iC.css","/baby-day-family-web/assets/index-DiyXUdVx.js"];
+const CACHE_NAME = "baby-day-shell-2c15ede8d729";
+const PRECACHE = ["/baby-day-family-web/","/baby-day-family-web/index.html","/baby-day-family-web/cloudbase-config.js","/baby-day-family-web/manifest.webmanifest","/baby-day-family-web/assets/index-B-FuA0Wg.css","/baby-day-family-web/assets/index-DB79vACO.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE)));
